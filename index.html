@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Cassimiro | Desenvolvedor Full Stack & Frontend</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-dot"></span>
+                Gabriel Cassimiro
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#sobre" class="nav-link">Sobre & Formação</a>
+                <a href="#experiencia" class="nav-link">Experiência</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-btn" id="themeToggle" aria-label="Alternar Tema">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="section-tag">Disponível para Oportunidades</span>
+                    <h1>Gabriel Meira Cassimiro Roques</h1>
+                    <div class="hero-role">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Desenvolvedor Full Stack & Game Dev Jr.</span>
+                    </div>
+                    <p class="hero-description">
+                        Técnico em Desenvolvimento de Sistemas pelo COLTEC/UFMG. Experiência na criação de sistemas web de ponta a ponta, integração com APIs REST, aplicações interativas com React e lógica de inteligência artificial (Q-Learning e Pathfinding).
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#projetos" class="btn-primary">
+                            <span>Ver Projetos</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contato" class="btn-outline">
+                            <span>Entrar em Contato</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/gabrielcassimiro050" target="_blank" class="social-link" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/gabriel-meira-cr" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:gabriel.cassimiro.roques@gmail.com" class="social-link" title="E-mail">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <div class="badge-award">
+                        <i class="fa-solid fa-trophy"></i>
+                        <div>
+                            <div class="badge-award-title">Grande Prêmio de Iniciação Científica Jr. UFMG</div>
+                            <div class="badge-award-sub">Premiado pelo desenvolvimento de sistemas web no Laboratório de Terapêutica (Escola de Veterinária).</div>
+                        </div>
+                    </div>
+
+                    <div class="badge-award" style="margin-bottom: 0;">
+                        <i class="fa-solid fa-graduation-cap" style="color: var(--accent-anise);"></i>
+                        <div>
+                            <div class="badge-award-title">Bolsista FAPEMIG & Técnico COLTEC</div>
+                            <div class="badge-award-sub">Formação técnica sólida em Desenvolvimento de Sistemas na UFMG.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE & FORMAÇÃO -->
+    <section id="sobre">
+        <div class="container">
+            <span class="section-tag">Trajetória Acadêmica</span>
+            <h2 class="section-title">Sobre Mim & Formação</h2>
+            <p class="section-subtitle">
+                Desenvolvedor movido por solucionar problemas complexos, desde a construção de plataformas web até simuladores interativos e agentes autônomos.
+            </p>
+
+            <div class="about-grid">
+                <div class="info-card">
+                    <h3><i class="fa-solid fa-user"></i> Perfil Profissional</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 16px;">
+                        Com formação técnica concluída no Colégio Técnico da UFMG (COLTEC), atuei no desenvolvimento de sistemas full stack para laboratórios e projetos institucionais da Universidade Federal de Minas Gerais.
+                    </p>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">
+                        Possuo fluência avançada em inglês (C1 - EF SET) e busco criar aplicações focadas em usabilidade (UX), automação de processos e eficiência de dados.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="fa-solid fa-graduation-cap"></i> Formação</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 – 2025</div>
+                        <div class="timeline-title">Técnico em Desenvolvimento de Sistemas</div>
+                        <div class="timeline-institution">Colégio Técnico da UFMG (COLTEC) • Belo Horizonte, MG</div>
+                        <div class="timeline-desc">
+                            Contemplado com bolsa FAPEMIG. Formação prática em estruturas de dados, desenvolvimento web, orientação a objetos e engenharia de software.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIÊNCIA PROFISSIONAL -->
+    <section id="experiencia">
+        <div class="container">
+            <span class="section-tag">Carreira</span>
+            <h2 class="section-title">Experiência Profissional</h2>
+            <p class="section-subtitle">Projetos reais de grande impacto desenvolvidos no ambiente universitário.</p>
+
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div>
+                        <div class="exp-role">Desenvolvedor Full Stack</div>
+                        <div class="exp-org">Laboratório de Terapêutica (Escola de Veterinária - UFMG)</div>
+                    </div>
+                    <span class="exp-period">Fev. 2025 – Dez. 2025</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Desenvolvimento de sistema web completo (HTML/CSS/JS) para registro, rastreabilidade de amostras ambientais e gestão de dados de laboratório.</li>
+                    <li>Criação e integração de APIs REST utilizando Google Apps Script e Planilhas no back-end.</li>
+                    <li>Automação de fluxos de dados internos, reduzindo o esforço manual e garantindo maior confiabilidade das informações.</li>
+                    <li>Projeto reconhecido e premiado com o **Grande Prêmio de Iniciação Científica Júnior da UFMG**.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div>
+                        <div class="exp-role">Desenvolvedor Full Stack</div>
+                        <div class="exp-org">Setor de Biologia / Projeto Aquaponia (COLTEC - UFMG)</div>
+                    </div>
+                    <span class="exp-period">Jun. 2024 – Fev. 2025</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Desenvolvimento do website institucional do projeto de aquaponia utilizando HTML, CSS, JavaScript e Bootstrap.</li>
+                    <li>Coordenação de demandas de equipe estudantil de desenvolvimento aplicando metodologias ágeis (Scrum / Kanban).</li>
+                    <li>Apoio à divulgação científica e educação por meio de soluções web dinâmicas e interativas.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+        <div class="container">
+            <span class="section-tag">Portfólio</span>
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <p class="section-subtitle">Aplicações focadas em manipulação de grafos, simulação em tempo real e inteligência artificial.</p>
+
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="ai">IA & Algoritmos</button>
+                <button class="filter-btn" data-filter="frontend">Frontend & Games</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Ecosystem Manager -->
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-body">
+                        <div class="project-year">2026</div>
+                        <h3 class="project-title">Ecosystem Manager</h3>
+                        <p class="project-desc">
+                            Aplicação web interativa para construção e visualização de teias alimentares e mapas mentais ecológicos com renderização de grafos em tempo real e persistência NoSQL.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag-chip">React</span>
+                            <span class="tag-chip">ReactFlow</span>
+                            <span class="tag-chip">Firebase</span>
+                            <span class="tag-chip">NoSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gabrielcassimiro050" target="_blank" class="project-link">
+                                <i class="fa-brands fa-github"></i> Código Fonte
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PongIA -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-body">
+                        <div class="project-year">2025</div>
+                        <h3 class="project-title">PongIA – Reinforcement Learning</h3>
+                        <p class="project-desc">
+                            Simulador de Aprendizado por Reforço (Q-Learning) integrado em jogo Pong 2D via HTML5 Canvas API. Treina um agente autônomo diretamente no navegador com controle dinâmico de hiperparâmetros.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag-chip">JavaScript</span>
+                            <span class="tag-chip">HTML5 Canvas</span>
+                            <span class="tag-chip">Q-Learning</span>
+                            <span class="tag-chip">Game Loop</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gabrielcassimiro050" target="_blank" class="project-link">
+                                <i class="fa-brands fa-github"></i> Código Fonte
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pathfinding Simulator -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-body">
+                        <div class="project-year">2024</div>
+                        <h3 class="project-title">Pathfinding Simulator: A* & Dijkstra</h3>
+                        <p class="project-desc">
+                            Simulador interativo 2D em matriz/grid para cálculo e navegação autônoma em tempo real com custos de terreno variáveis e desvio de obstáculos.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag-chip">Java</span>
+                            <span class="tag-chip">Processing</span>
+                            <span class="tag-chip">Algoritmo A*</span>
+                            <span class="tag-chip">Dijkstra</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gabrielcassimiro050" target="_blank" class="project-link">
+                                <i class="fa-brands fa-github"></i> Código Fonte
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES TÉCNICAS -->
+    <section id="habilidades">
+        <div class="container">
+            <span class="section-tag">Competências</span>
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <p class="section-subtitle">Tecnologias, linguagens e metodologias utilizadas no dia a dia.</p>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-title">
+                        <i class="fa-solid fa-code"></i> Frontend & UI
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-item">JavaScript (ES6+)</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">ReactFlow</span>
+                        <span class="skill-item">HTML5 / Canvas API</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-title">
+                        <i class="fa-solid fa-server"></i> Backend & Banco de Dados
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">APIs REST</span>
+                        <span class="skill-item">Firebase (NoSQL)</span>
+                        <span class="skill-item">Google Apps Script</span>
+                        <span class="skill-item">SQL / MySQL</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">C#</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-title">
+                        <i class="fa-solid fa-brain"></i> Algoritmos & Conceitos
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-item">Aprendizado por Reforço (Q-Learning)</span>
+                        <span class="skill-item">Busca em Grafos (A*, Dijkstra)</span>
+                        <span class="skill-item">Game Loops & Física 2D</span>
+                        <span class="skill-item">Detecção de Colisões</span>
+                        <span class="skill-item">Estruturas de Dados</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-title">
+                        <i class="fa-solid fa-wrench"></i> Ferramentas & Práticas
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-item">Git & GitHub</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">SCRUM / Kanban</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">IntelliJ IDEA</span>
+                        <span class="skill-item">Inglês Avançado (C1)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+        <div class="container">
+            <span class="section-tag">Fale Conosco</span>
+            <h2 class="section-title">Vamos Conversar?</h2>
+            <p class="section-subtitle">Sinta-se à vontade para enviar uma mensagem ou entrar em contato direto.</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <label>E-mail</label>
+                            <a href="mailto:gabriel.cassimiro.roques@gmail.com">gabriel.cassimiro.roques@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <label>Telefone / WhatsApp</label>
+                            <a href="tel:5531996668581">(31) 99666-8581</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <label>Localização</label>
+                            <span>Belo Horizonte, MG - Brasil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+                    <div class="form-group">
+                        <label for="name">Seu Nome</label>
+                        <input type="text" id="name" class="form-input" placeholder="Ex: Maria Silva" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Seu E-mail</label>
+                        <input type="email" id="email" class="form-input" placeholder="maria@exemplo.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Sua Mensagem</label>
+                        <textarea id="message" class="form-textarea" placeholder="Como posso ajudar no seu projeto?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+                        <span>Enviar Mensagem</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Gabriel Meira Cassimiro Roques. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT DE INTERAÇÃO -->
+    <script>
+        // TEMA CLARO / ESCURO
+        const themeToggleBtn = document.getElementById('themeToggle');
+        const html = document.documentElement;
+
+        themeToggleBtn.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            themeToggleBtn.querySelector('i').className = newTheme === 'dark' ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
+        });
+
+        // MENU MOBILE
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // FILTRO DE PROJETOS
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
